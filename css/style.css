@@ -1,0 +1,73 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    border: 1px solid #000000;
+    width: 300px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.card > *{
+    margin-bottom:10px ;
+}
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name {
+   font-size: 18px;
+   color:rgb(52, 82, 72)
+   
+}
+.job-title {
+    font-size: 14px;
+   color: #334644;
+
+} 
+.description {
+    line-height: 18px;
+    text-align: center;
+
+}
+
+
+.contact-btn {
+    
+    background-color: #5db1e2;
+    border-radius: 0px;
+    padding: 15px;
+   cursor: pointer;
+    
+}
+
+.contact-btn:hover {
+    background-color: #70c565;
+    
+}
